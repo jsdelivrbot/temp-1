@@ -1,5 +1,7 @@
 Readme
 -----
+### rawgit 
+https://rawgit.com/kunigamaeno/temp/master/modajspack/modajspack.min.js
 ### pack list
 - https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js
 - https://cdnjs.cloudflare.com/ajax/libs/fetch/2.0.1/fetch.min.js
