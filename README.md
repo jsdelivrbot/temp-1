@@ -12,7 +12,7 @@ How to step
 folder __inner__ __files__ drop.   
 How to step
    1. make folder. and put file.
-   - folder drop.
+   - git> Upload files ...folder drop.
 ```
 myfolder/
   xyz.js
