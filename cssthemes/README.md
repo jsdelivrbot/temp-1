@@ -3,6 +3,12 @@ Readme
 ## markdown-github 
 Usage   
 class add `markdown-body`
+```
+https://rawgit.com/kunigamaeno/temp/master/cssthemes/markdown-github.min.css
+```
+```
+<link rel="stylesheet" href="markdown-github.min.css"></link>
+```
 ``` 
 <article class="markdown-body">
 ```
