@@ -10,7 +10,7 @@ var slice = Array.prototype.slice;
  */
 
 /* browser fit */
-if(module)
+if(typeof module !== 'undefined')
  module.exports = co['default'] = co.co = co;
 else
  window.co = co['default'] = co.co = co;
