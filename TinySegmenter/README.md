@@ -8,6 +8,9 @@ https://rawgit.com/kunigamaeno/temp/master/TinySegmenter/tinysegmenter.js
 ```js
 <script type="text/javascript" src="https://rawgit.com/kunigamaeno/temp/master/TinySegmenter/tinysegmenter.js" charset="UTF-8"></script>
 ```
+## charset="UTF-8" Needs?
+safety call is needs. but Not is do.
+
 ## Usage
 ```js
 var segmenter = new TinySegmenter();                 // インスタンス生成
