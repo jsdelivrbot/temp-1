@@ -3,6 +3,11 @@ Readme
 ## orginal 
 http://chasen.org/~taku/software/TinySegmenter/
 
+## set
+https://rawgit.com/kunigamaeno/temp/master/TinySegmenter/tinysegmenter.js
+```js
+<script type="text/javascript" src="https://rawgit.com/kunigamaeno/temp/master/TinySegmenter/tinysegmenter.js" charset="UTF-8"></script>
+```
 ## Usage
 ```js
 var segmenter = new TinySegmenter();                 // インスタンス生成
