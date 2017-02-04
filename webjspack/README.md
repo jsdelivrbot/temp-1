@@ -1,6 +1,8 @@
 Readme
 -----
-# useful.js
+## useful.js
+https://rawgit.com/kunigamaeno/temp/master/webjspack/useful.js
+
 ## Usage
 efn(number,header='',numflg=0)
 2lings element about 700 auto create
@@ -74,7 +76,8 @@ getJson(url); //11 line mini Promise
 ```js
  getJson('https://xxxxyyyyy').then(d=> console.log(d) ).catch(d=> console.log('err',d) );
 ```
-```js inner-code
+```js 
+//inner-code
 var getJson = function(url){
   return new Promise(function(sol,rej){ 
    var xhr = new XMLHttpRequest();
