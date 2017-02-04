@@ -32,14 +32,14 @@ var copyfn=function(){
 
 css
 ```css
-//copyeffect
+/*copyeffect*/
 .copymark{position:relative;}
 .copymark:before{
  position:absolute; z-index:10;
  top:0em;right:0.3em;
- //color:$sfont;
+ /*color:$sfont;*/
  font-family:cambria,serif;
  content:"copy";
- //transition: all 0.3s ease;
+ /*transition: all 0.3s ease;*/
 }
 ```
