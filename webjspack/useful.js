@@ -45,6 +45,15 @@ var qtime=(function(){
   //xpad("44434342443245.7755666","*.00") //=> 44434342443245.77
  }
 
+ var escape_html =function (string) {
+  if(typeof string !== 'string') {
+    return string;
+  }
+  return string.replace(/[&'`"<>]/g, function(match) {
+    return {'&': '&amp;',"'": '&#x27;','`': '&#x60;','"': '&quot;','<': '&lt;','>': '&gt;',}[match]
+  });
+}
+ 
 var getJson = function(url){
   return new Promise(function(sol,rej){ 
    var xhr = new XMLHttpRequest();
