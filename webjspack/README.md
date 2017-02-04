@@ -58,7 +58,7 @@ lst.timelist(); //=>return stock list ids and times
  var savetime=lst.time(id); //=> output Data.now() format
 ```
 
-# qtime 
+## qtime 
 qtime is time watch
 ```js
 qtime.time('a');
@@ -70,3 +70,21 @@ var calcsy=qtime.end(sy);
 ```
 escape_html(string); // [&'\`"<>]/g
 
+getJson(url); //11 line mini Promise 
+```js
+ getJson('https://xxxxyyyyy').then(d=> console.log(d) ).catch(d=> console.log('err',d) );
+```
+```js inner-code
+var getJson = function(url){
+  return new Promise(function(sol,rej){ 
+   var xhr = new XMLHttpRequest();
+   xhr.onreadystatechange = function(){ 
+    if( this.readyState == 4){ 
+     if( this.status == 200|| this.status==0) sol( this.response);
+     else rej(this.response);
+    }
+   }
+   xhr.open( 'GET',url, true );xhr.responseType = 'json';xhr.send( null );
+   });//
+}
+```
