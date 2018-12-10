@@ -4,7 +4,7 @@ Readme
 Usage   
 class add `markdown-body`
 ```
-https://rawgit.com/kunigamaeno/temp/master/cssthemes/markdown-github.min.css
+https://cdn.jsdelivr.net/gh/kunigamaeno/temp@master/cssthemes/markdown-github.min.css
 ```
 ```
 <link rel="stylesheet" href="markdown-github.min.css"></link>

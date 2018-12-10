@@ -4,9 +4,9 @@ Readme
 http://chasen.org/~taku/software/TinySegmenter/
 
 ## set
-https://rawgit.com/kunigamaeno/temp/master/TinySegmenter/tinysegmenter.js
+https://cdn.jsdelivr.net/gh/kunigamaeno/temp@master/TinySegmenter/tinysegmenter.js
 ```js
-<script type="text/javascript" src="https://rawgit.com/kunigamaeno/temp/master/TinySegmenter/tinysegmenter.js" charset="UTF-8"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/kunigamaeno/temp@master/TinySegmenter/tinysegmenter.js" charset="UTF-8"></script>
 ```
 ## charset="UTF-8" Needs?
 safety call is needs. but Not is do.

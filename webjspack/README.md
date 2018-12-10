@@ -1,7 +1,7 @@
 Readme
 -----
 ## useful.js
-https://rawgit.com/kunigamaeno/temp/master/webjspack/useful.js
+https://cdn.jsdelivr.net/gh/kunigamaeno/temp@master/webjspack/useful.js
 
 ## Usage
 efn(number,header='',numflg=0)
